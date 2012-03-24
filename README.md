@@ -26,3 +26,12 @@ Usage: trip_phrase password [salt]
 $ trip_phrase secret1234
 sparge my extensible whaleboat
 ```
+
+## Credits
+
+Kudos go out to [Bret Victor](http://worrydream.com/), who happens to be
+working on some cool stuff you should check out.
+
+High fives go out to [WordNet](http://wordnet.princeton.edu/), the people
+who distribute the lexical database used in this gem and make it ridiculously
+easy to play with the English language. :)
