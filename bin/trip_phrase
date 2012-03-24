@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require 'trip_phrase'
+
+def banner
+  'Usage: trip_phrase password [salt]'
+end
+
+if ARGV[0]
+  salt = ARGV[1] || 'NW'
+  puts TripPhrase.generate(salt, ARGV[0])
+else
+  puts banner
+end
